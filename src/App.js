@@ -9,6 +9,9 @@ import { Link, NavLink } from "react-router-dom";
 import About from "./components/About";
 import Language from "./components/Language";
 import Projects from "./components/Projects";
+import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
+import Education from "./components/Education";
 //import Loader from "./components/Loader/Loader"
 function App() {
   const [loading, setLoading] = useState(false);
@@ -119,6 +122,10 @@ function App() {
                 <About />
                 <Language />
                 <Projects />
+                <Footer />
+                <Blogs />
+                <Education />
+                
               </div>
             </div>
           </>

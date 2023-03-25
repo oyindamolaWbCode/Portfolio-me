@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/oyindamolaWbCode/Portfolio-me/static/css/main.6032c8ae.css",
+    "main.js": "/oyindamolaWbCode/Portfolio-me/static/js/main.f9905278.js",
+    "static/media/profile.jpg": "/oyindamolaWbCode/Portfolio-me/static/media/profile.0868c74acb60975e8a2f.jpg",
+    "static/media/css3-logo-png-transparent.png": "/oyindamolaWbCode/Portfolio-me/static/media/css3-logo-png-transparent.19c8605d6b2861f5fbe0.png",
+    "static/media/html5-icon-13.jpg": "/oyindamolaWbCode/Portfolio-me/static/media/html5-icon-13.b757b1105a63ab582275.jpg",
+    "static/media/bootstrap-4.svg": "/oyindamolaWbCode/Portfolio-me/static/media/bootstrap-4.997c463dca63c915b9a51f1caedef8e1.svg",
+    "static/media/reactjs.svg": "/oyindamolaWbCode/Portfolio-me/static/media/reactjs.2d80508d388f8a99ffd2129955e481b2.svg",
+    "index.html": "/oyindamolaWbCode/Portfolio-me/index.html",
+    "static/media/javascript.svg": "/oyindamolaWbCode/Portfolio-me/static/media/javascript.19600440c8c62e3de974e2bba991871f.svg",
+    "static/media/icon-close-menu.svg": "/oyindamolaWbCode/Portfolio-me/static/media/icon-close-menu.32169d313e5fa6171811fd73fe1e3568.svg",
+    "static/media/icon-hamburger.svg": "/oyindamolaWbCode/Portfolio-me/static/media/icon-hamburger.f8a9f0cf12d419a7d18556f98d81a47e.svg",
+    "main.6032c8ae.css.map": "/oyindamolaWbCode/Portfolio-me/static/css/main.6032c8ae.css.map",
+    "main.f9905278.js.map": "/oyindamolaWbCode/Portfolio-me/static/js/main.f9905278.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6032c8ae.css",
+    "static/js/main.f9905278.js"
+  ]
+}

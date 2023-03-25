@@ -8,22 +8,6 @@ import Html from "../Assets/img/html5-icon-13.jpg";
 
 const Language =  () =>{
 
-    // const boxes = document.querySelectorAll('.skillsContainer')
-
-
-    // window.addEventListener('scroll', () =>{
-    //     const triggerBottom = window.innerHeight / 5 * 4
-        
-    //     boxes.forEach(box =>{
-    //         const boxTop = box.getBoundingClientRect().top
-    
-    //         if(boxTop < triggerBottom){
-    //             box.classList.add('show')
-    //         }else{
-    //             box.classList.remove('show')
-    //         }
-    //     })
-    // })
 
 return(
  <div className="container">

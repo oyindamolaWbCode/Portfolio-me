@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import "./index.css";
 import hamburger from "./Assets/img/icon-hamburger.svg";
 import closeburger from "./Assets/img/icon-close-menu.svg";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import About from "./components/About";
 import Language from "./components/Language";
 import Projects from "./components/Projects";
@@ -83,36 +83,17 @@ function App() {
                 />
                 <ul id="menu" className={`menu${navbarOpen ? "show" : ""}`}>
                   <li>
-                    <Link
-                      to=""
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      About
-                    </Link>
+                    <a href ="/" style={{ textDecoration: "none", color: "white" }}>About</a>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      Projects
-                    </Link>
+                    <a href ="/Projects" style={{ textDecoration: "none", color: "white" }}>Projects</a>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      Resume
-                    </Link>
+                  <a href ="/" style={{ textDecoration: "none", color: "white" }}>Resume</a>
                   </li>
                   <li>
-                    <Link
-                      to=""
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      Contact
-                    </Link>
+                    <a href ="/Footer" style={{ textDecoration: "none", color: "white" }}>Contact</a>
+                      
                   </li>
                 </ul>
               </NavLink>

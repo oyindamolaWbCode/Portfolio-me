@@ -103,10 +103,9 @@ function App() {
                 <About />
                 <Language />
                 <Projects />
-                <Footer />
-                <Blogs />
+                 <Blogs />
                 <Education />
-                
+                <Footer />
               </div>
             </div>
           </>

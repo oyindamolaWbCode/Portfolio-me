@@ -122,6 +122,16 @@ button {
     right: 380px;
 }
 
+.projects{
+  width: 300px;
+  height:350px;
+  /* background-color: rgb(30, 39, 50); animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-8318404412199-1; */
+}
+
+.react-reveal{
+  opacity: 0;
+}
+
 /* animation scroll 
 .skillsContainer{
   color: #fff;

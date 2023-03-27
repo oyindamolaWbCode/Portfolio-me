@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLoader } from "react-spinners";
 import { useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./index.css";
 import hamburger from "./Assets/img/icon-hamburger.svg";
 import closeburger from "./Assets/img/icon-close-menu.svg";
@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <HelmetProvider>
       <Helmet>
         <title>Oyindamola</title>‍
         <meta name="description" content="Oyindamola's Portfolio" />
@@ -43,6 +44,7 @@ function App() {
         <meta property="og:type" content="article" />
         <meta property="fb:app_id" content="ID_APP_FACEBOOK" />
       </Helmet>
+      </HelmetProvider>
       <div className="loading">
         {loading ? (
           <HashLoader
@@ -81,22 +83,22 @@ function App() {
                   alt="close menu"
                   id="close-icon"
                 />
+                </NavLink>
                 <ul id="menu" className={`menu${navbarOpen ? "show" : ""}`}>
                   <li>
-                    <a href ="/" style={{ textDecoration: "none", color: "white" }}>About</a>
+                    <NavLink href="/" style={{ textDecoration: "none", color: "white" }}>About</NavLink>
                   </li>
                   <li>
-                    <a href ="/Projects" style={{ textDecoration: "none", color: "white" }}>Projects</a>
+                    <NavLink href="/Projects" style={{ textDecoration: "none", color: "white" }}>Projects</NavLink>
                   </li>
                   <li>
-                  <a href ="/" style={{ textDecoration: "none", color: "white" }}>Resume</a>
+                  <NavLink href="/" style={{ textDecoration: "none", color: "white" }}>Resume</NavLink>
                   </li>
                   <li>
-                    <a href ="/Footer" style={{ textDecoration: "none", color: "white" }}>Contact</a>
+                    <NavLink href="/Footer" style={{ textDecoration: "none", color: "white" }}>Contact</NavLink>
                       
                   </li>
                 </ul>
-              </NavLink>
             </div>
             <div className="main-content">
               <div className="container">

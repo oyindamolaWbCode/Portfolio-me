@@ -148,6 +148,22 @@ button {
 .single-content{
   padding:20px;
 }
+
+/* .cards-wrapper{
+  border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(36,3,3,.2);
+    cursor: pointer;
+    height: 450px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1.4rem 2rem;
+    position: relative;
+    width: 230px;
+} */
+
+.cards-wrapper{
+  display:flex;
+}
 /* animation scroll 
 .skillsContainer{
   color: #fff;

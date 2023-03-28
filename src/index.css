@@ -132,6 +132,22 @@ button {
   opacity: 0;
 }
 
+
+.single-project{
+  border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(36,3,3,.2);
+    cursor: pointer;
+    height: 450px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1.4rem 2rem;
+    position: relative;
+    width: 230px;
+}
+
+.single-content{
+  padding:20px;
+}
 /* animation scroll 
 .skillsContainer{
   color: #fff;

@@ -88,36 +88,36 @@ function App() {
               </NavLink>
               <ul id="menu" className={`menu${navbarOpen ? "show" : ""}`}>
                 <li>
-                  <NavLink
+                  <a
                     href="/"
                     style={{ textDecoration: "none", color: "white" }}
                   >
-                    About
-                  </NavLink>
+                  Home
+                  </a>
                 </li>
                 <li>
-                  <NavLink
+                  <a
+                    href="/About"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                   About
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/Projects"
                     style={{ textDecoration: "none", color: "white" }}
                   >
-                    Projects
-                  </NavLink>
+                   Projects
+                  </a>
                 </li>
                 <li>
-                  <NavLink
-                    href="/"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    Resume
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
+                  <a
                     href="/Footer"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Contact
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </div>

@@ -41,7 +41,7 @@ const Home = () => {
                 This is project list individual repositories in the github, it
                 also gives details about the repos.
               </p>
-              <button>View Demo</button>
+              <a href="https://githubapi-with-vue.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
             </div>
           </div>
           <div className="single-project col-md-4">
@@ -56,7 +56,7 @@ const Home = () => {
                 The app adds, deletes, modify todos to give a stress- free life
                 making daily life organized
               </p>
-              <button>View Demo</button>
+              <a href="https://todo-list-iota-mocha.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
             </div>
           </div>
           <div className="single-project col-md-4">
@@ -71,27 +71,17 @@ const Home = () => {
                 This project output the service provider logo whenever a nigeria
                 is inputted into the input type box
               </p>
-              <button>View Demo</button>
+              <a href="https://phonie-dun.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
             </div>
           </div>
         </div>
         <div className="arrow">
-          <ul>
-            <li>
-              <a
-                href="/Projects"
-                style={{
-                  textDecoration: "none",
-                  color: "white",
-                  fontFamily: "fantasy",
-                  display: "flex",
-                  justifyContent: "flex-end",
-                }}
-              >
-                View More
+            <a href="/Projects" className="underline-animation" style={{
+                textDecoration: "none",
+                color: "#6e57e0"
+            }}>
+                View more project
               </a>
-            </li>
-          </ul>
         </div>
       </div>
       <Blogs />

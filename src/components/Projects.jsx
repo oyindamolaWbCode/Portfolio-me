@@ -45,7 +45,7 @@ const Projects = () => {
                   This is project list individual repositories in the github, it
                   also gives details about the repos.
                 </p>
-                <button>View Demo</button>
+               <a href="https://githubapi-with-vue.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
               </div>
             </div> 
  <div className="single-project col-md-4">
@@ -60,7 +60,7 @@ const Projects = () => {
                   The app adds, deletes, modify todos to give a stress- free
                   life making daily life organized
                 </p>
-                <button>View Demo</button>
+                <a href="https://todo-list-iota-mocha.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
               </div>
             </div> 
  <div className="single-project col-md-4">
@@ -75,7 +75,7 @@ const Projects = () => {
                   This project output the service provider logo whenever a
                   nigeria is inputted into the input type box
                 </p>
-                <button>View Demo</button>
+                 <a href="https://phonie-dun.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
  <div className="single-project col-md-4">
@@ -90,7 +90,7 @@ const Projects = () => {
                   This project output the service provider logo whenever a
                   nigeria is inputted into the input type box
                 </p>
-                <button>View Demo</button>
+                 <a href="https://redactr-app.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
  <div className="single-project col-md-4">
@@ -104,7 +104,7 @@ const Projects = () => {
                 <p className="p-3">
                   The project is a testing platform outputing random questions, evaluates and give result after done with the assessment.
                 </p>
-                <button>View Demo</button>
+                 <a href="https://quiz-one-chi.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
  <div className="single-project col-md-4">
@@ -118,7 +118,7 @@ const Projects = () => {
                 <p className="p-3">
                   This is a page showing a sliding navigation.
                 </p>
-                <button>View Demo</button>
+                 <a href="https://rotating-navigation-mocha.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
 <div className="single-project col-md-4">
@@ -132,7 +132,7 @@ const Projects = () => {
                 <p className="p-3">
                  A landing page for a mecahanic website.
                 </p>
-                <button>View Demo</button>
+                 <a href="https://mechanic-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div>
  <div className="single-project col-md-4">
@@ -146,7 +146,7 @@ const Projects = () => {
                 <p className="p-3">
                   This is a small page displaying an intrative rating, it can be used in e-commerce website or any webpage that requires rating feedback.
                 </p>
-                <button>View Demo</button>
+                 <a href="https://interactive-rating-lake.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
  <div className="single-project col-md-4">
@@ -160,7 +160,7 @@ const Projects = () => {
                 <p className="p-3">
                   This is a landing page of a crowdfunding website
                 </p>
-                <button>View Demo</button>
+                 <a href="https://crowdfunding-website.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div> 
  <div className="single-project col-md-4">
@@ -174,7 +174,7 @@ const Projects = () => {
                 <p className="p-3">
                   The site is a Api fetch data to output random jokes.
                 </p>
-                <button>View Demo</button>
+                 <a href="https://dad-s-jokes-tau.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
                 </div>
         </div>

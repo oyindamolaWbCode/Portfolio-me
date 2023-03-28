@@ -19,9 +19,32 @@ code {
   color: white;
 }
 
-a {
+.underline-animation{
   text-decoration: none;
   color: white;
+  font-family: cursive;
+  position: relative;
+  display: flex;
+  justify-content:flex-end;
+  font-size:20px;
+  margin-top: 20px;
+
+}
+
+.underline-animation:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.underline-animation::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  bottom:0;
+  left:0;
+  background-color: #ffff00;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
 
 li{
@@ -139,14 +162,20 @@ button {
 
 .single-project{
   border-radius: 10px;
-    box-shadow: 4px 4px 8px rgba(36,3,3,.2);
+    box-shadow: 4px 4px 8px rgba(43, 4, 4, 0.226);
     cursor: pointer;
     height: 450px;
     justify-content: center;
     overflow: hidden;
     padding: 1.4rem 2rem;
     position: relative;
-    width: 230px;
+    width: 180px;
+  
+}
+
+.single-project:hover{
+
+height: 500px;
 }
 
 .single-content{

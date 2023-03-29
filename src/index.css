@@ -204,43 +204,92 @@ height: 500px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-/* .cards-wrapper{
-  border-radius: 10px;
-    box-shadow: 4px 4px 8px rgba(36,3,3,.2);
-    cursor: pointer;
-    height: 450px;
-    justify-content: center;
-    overflow: hidden;
-    padding: 1.4rem 2rem;
-    position: relative;
-    width: 230px;
-} */
 
 .cards-wrapper{
   display:flex;
 }
-/* animation scroll 
-.skillsContainer{
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 700px;
-  height: 200px;
-  margin: 10px;
+
+.footer{
+  padding-top: 50px; 
+  padding-bottom: 30px;
+}
+
+.contact-header{
+  font-size: 30px;
+
+}
+
+.con-para{
+  font-size: 19px;
+}
+
+input[type= text],
+input[type= email]
+{
+  background-color: transparent;
+  width:100%;
+  height:50px;
+  margin-top:15px;
+  margin-bottom:15px;
+  border: 1px solid #8B98A5;
   border-radius: 10px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  transform: translateX(400%);
-  transition: transform 0.5s ease-in-out;
 }
 
-.skillsContainer:nth-of-type(even) {
-  transform: translateX(-400%);
+input[type= submit]{
+  padding: 8px 30px;
+  background: #b48484;
+  border-radius: 10px;
 }
 
-.skillsContainer.show {
-  transform: translateX(0);
-}*/
+textarea{
+  background-color: transparent;
+  width:100%;
+  margin-top:15px;
+  margin-bottom:15px;
+  color:aliceblue;
+  border: 1px solid #8B98A5;
+  border-radius: 6px;
+
+}
+
+label{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SinD{
+  background: #8B98A5;
+  height: 50px;
+    width: 50px;
+    margin: 3px;
+    margin-top: 10px;
+    margin-bottom:40px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.SinP{
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+.SnM{
+  color:#222222;
+}
+
+  .Sind{background: #8B98A5;
+  height: 50px;
+    width: 50px;
+    margin: 3px;
+    margin-top:150px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (min-width: 374px) and (max-width: 426px) {
   .topnav {
@@ -291,6 +340,18 @@ height: 500px;
     top: 70%;
       right: 70px;
   }
+
+  .footer{
+    padding: none;
+  }
+
+  .img-section{
+    display: none;
+  }
+
+   .Sind{
+    margin-top: 10px;
+   }
 
 }
 
@@ -367,11 +428,6 @@ height: 500px;
   #menu-icon {
     display: none;
   }
-
-  /* .skillsContainer {
-    width:auto;
-    align-items: center;
-  } */
 
   .skillsContainer {
     width:800px;

@@ -17,7 +17,7 @@ const About = () =>{
                 <div className="IntroMe col-lg col-md pt-5 ">
                     <h3 style={{fontFamily: "poppins", fontSize: "35px", fontWeight: "bolder"}}>Oyindamola Kushimo</h3>
                    <h3>
-                    <span style={{fontWeight: "bold", color: "#6E57E0"}}>
+                    <span style={{fontWeight: "bold", color: "#b48484"}}>
                         {text}
                     </span>
                     <span style={{color: 'red'}}>

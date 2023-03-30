@@ -3,22 +3,18 @@ import { HashLoader } from "react-spinners";
 import { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./index.css";
-import hamburger from "./Assets/img/icon-hamburger.svg";
-import closeburger from "./Assets/img/icon-close-menu.svg";
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import About from "./components/About";
 import Language from "./components/Language";
 import Projects from "./components/Projects";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
-import Education from "./components/Education";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-//import Loader from "./components/Loader/Loader"
+import Navbar from "./components/Navbar";
+
 function App() {
   const [loading, setLoading] = useState(false);
-  const [navbarOpen, setNavbarOpen] = useState(false);
-
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -65,74 +61,18 @@ function App() {
         ) : (
           <>
             <div className="nav-content">
-              <NavLink
-                className="navbar d-flex justify-content-end"
-                style={{ marginRight: "10px", textDecoration: "none" }}
-              >
-                <span id="menu-icon">
-                  <img
-                    src={hamburger}
-                    alt="hamburger menu icon"
-                    onClick={() => setNavbarOpen((prev) => !prev)}
-                  />
-                </span>
-                {/* {
-                navbarOpen ? '<img src={closeburger}/>' : '<img src={hamburger}/>'
-              } */}
-                <img
-                  src={closeburger}
-                  className="closebtn"
-                  alt="close menu"
-                  id="close-icon"
-                />
-              </NavLink>
-              <ul id="menu" className={`menu${navbarOpen ? "show" : ""}`}>
-                <li>
-                  <a
-                    href="/"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                  Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/About"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                   About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Projects"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                   Projects
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Footer"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
+             
+              < Navbar />
+            </div> 
             <div className="main-content">
-              <div className="container">
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/About" element={<About />} />
                   <Route path="/Language" element={<Language />} />
                   <Route path="/Blogs"element={<Blogs />} />
-                  <Route path="/Education" element={<Education />} />
                   <Route path="/Footer" element={<Footer />} />
                   <Route path="/Projects" element={<Projects />} />
                 </Routes>
-               </div>
                </div>
                </>
         )}

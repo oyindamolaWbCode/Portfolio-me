@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -19,32 +22,169 @@ code {
   color: white;
 }
 
-.underline-animation{
-  text-decoration: none;
-  color: white;
-  font-family: cursive;
-  position: relative;
-  display: flex;
-  justify-content:flex-end;
-  font-size:20px;
-  margin-top: 20px;
+/* navbar-content */
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: transparent;
+	color: var(--textColor);
+  border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn,#b38383, rgba(56,2,155,0),rgba(255,0,128));
+    border-image-slice: 1;
+    width:100%;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div
+{
+	display: flex;
+	align-items: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+/* ends here */
+
+
+/* About */
+
+.about{
+  padding: 30px 100px;
 
 }
 
-.underline-animation:hover::after{
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.line{
+  border-bottom: 3px solid #b48484;
+  width:50%;
+  margin: auto;
 }
 
-.underline-animation::after{
-  content: '';
-  position: absolute;
-  height: 2px;
-  bottom:0;
-  left:0;
-  background-color: #ffff00;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+.sign{
+  height:10px;
+  width:10px;
+  border-radius: 50%;
+  background-color: #b48484;
+  margin-left: 300px;
+    /* position: absolute; */
+}
+/* Ends here */
+
+
+/* language */
+.lanSkill{
+  background: #252727;
+  padding: 30px 150px;
+}
+/* Ends here */
+
+
+/* blog */
+
+.blogs-container{
+  background: #252727;
+}
+
+.project-container{
+  padding: 30px 150px;
+}
+
+/* ends here */
+
+.project-viewAll{
+  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+}
+
+.project-viewAll a button{
+  align-items: center;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.05rem;
+    font-weight: 500;
+    height: 48px;
+    justify-content: space-between;
+    outline: none;
+    padding-left: 1.5rem;
+    text-transform: inherit;
+    width: 150px;
+}
+
+.jss160 {
+  color: #15202B;
+  transition: color 0.5s;
+  background-color: #8B98A5;
 }
 
 li{
@@ -96,12 +236,12 @@ li{
 
 button {
   padding: 12px 35px;
-  border: 1px solid #6e57e0;
+  border: 1px solid #b38383;
 }
 
 .OutL {
-  border: 2px solid #6e57e0;
-  border-radius: 10px;
+  border: 4px solid #b38383;
+  border-radius: 20px;
   margin-right: 4px;
 }
 
@@ -109,54 +249,14 @@ button {
   color: white;
 }
 
-.lang {
-  background-color: red;
-  background-image: linear-gradient(
-    45deg,
-    #6e57e0,
-    #9942af,
-    #ca4246 16.666%,
-    #476098 66.666%,
-    #a7489b 83.333%
-  );
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  /* font-size: 1.2em; */
-  font-family: "poppins";
-}
-
 .nameLan {
   align-items: center;
 }
 
 .pro{
-  font-family: "poppins";
-  position: relative;
-  color: #6e57e0;
-}
-
-.pro::after{
-  font-family: "poppins";
-  content:" ";
-  height: 2px;
-  width: 200px;
-  background: #dedde1;
-  display: block;
-  position: absolute;
-  top: 70%;
-    right: 380px;
-}
-
-.projects{
-  width: 300px;
-  height:350px;
-  /* background-color: rgb(30, 39, 50); animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-8318404412199-1; */
-}
-
-.react-reveal{
-  opacity: 0;
+  font-family:'Times New Roman', Times, serif;
+  color: #b48484;
+  font-weight: bolder;
 }
 
 
@@ -170,12 +270,20 @@ button {
     padding: 1.4rem 2rem;
     position: relative;
     width: 180px;
-  
+ 
 }
 
-.single-project:hover{
 
-height: 500px;
+.single-project h3{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.single-project button{
+  background-color: transparent;
+  color:#8B98A5;
+  border:#222222;
 }
 
 .single-content{
@@ -236,7 +344,7 @@ input[type= email]
 }
 
 input[type= submit]{
-  padding: 8px 30px;
+  padding: 8px 40px;
   background: #b48484;
   border-radius: 10px;
 }
@@ -280,7 +388,8 @@ label{
   color:#222222;
 }
 
-  .Sind{background: #8B98A5;
+  .Sind{
+    background: #8B98A5;
   height: 50px;
     width: 50px;
     margin: 3px;
@@ -291,20 +400,25 @@ label{
     align-items: center;
 }
 
+.sendL{
+  margin-left: -30px;
+}
+
+
+
 @media (min-width: 374px) and (max-width: 426px) {
-  .topnav {
-    display: block;
+  .about{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
 
-  .menu ul {
-    display: block;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 3em;
-    background-color: rgb(156, 28, 28);
-    border-radius: 0.5em;
-    width: 100%;
+  .project-container{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
 
   .contact {
@@ -316,29 +430,6 @@ label{
     padding: 18px 33px;
     display: flex;
     justify-content: space-between;
-  }
-
-  .pro:before{
-    content:" ";
-    display: block;
-    height: 2px;
-    width: 80px;
-    position: absolute;
-    top: 70%;
-    left: 70px;
-    background:  #dedde1;
-  }
-  
-  .pro::after{
-    font-family: "poppins";
-    content:" ";
-    height: 2px;
-    width: 80px;
-    background: #dedde1;
-    display: block;
-    position: absolute;
-    top: 70%;
-      right: 70px;
   }
 
   .footer{
@@ -353,34 +444,37 @@ label{
     margin-top: 10px;
    }
 
+   .lanSkill{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+   }
+
 }
 
 @media (min-width: 767px) and (max-width: 769px) {
-  .menu {
-    display: block;
-    display: flex;
-    position: static;
-    background-color: rgb(0 0 0 / 18%);
-  }
-
-  .menu li {
-    list-style: none;
-    color: white;
-    border-bottom: none;
-    padding-right: 0.4em;
-  }
-
-  .closebtn,
-  #menu-icon {
-    display: none;
-  }
 
   .contact {
     display: none;
   }
 
+  .about{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .project-container{
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
   .skillsContainer {
-    padding: 20px 100px;
+    padding: 20px 29px;
     align-items: center;
   }
 

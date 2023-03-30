@@ -4,8 +4,8 @@ import phonie from "../Assets/img/phonie.png";
 import About from "./About";
 import Language from "./Language";
 import Footer from "./Footer";
-import Education from "./Education";
 import Blogs from "./Blogs";
+import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -75,17 +75,16 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="arrow">
+        <div className="project-viewAll">
             <a href="/Projects" className="underline-animation" style={{
                 textDecoration: "none",
                 color: "#6e57e0"
-            }}>
-                View more project
+            }}><button className='jss160'>View All < BsFillArrowRightCircleFill size={28}/></button>
+                
               </a>
         </div>
       </div>
       <Blogs />
-      <Education />
       <Footer />
     </div>
   );

@@ -6,7 +6,8 @@ import {AiOutlineMedium} from 'react-icons/ai';
 import {FaLinkedin} from 'react-icons/fa';
 import {BsTwitter} from 'react-icons/bs';
 import {FiInstagram} from 'react-icons/fi';
-import contact from "../Assets/img/contact-removebg-preview.png"
+import contact from "../Assets/img/contact-removebg-preview.png";
+import {BsSend} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -22,13 +23,14 @@ const Footer = () => {
                     <label htmlFor="name">
                         Name
                     </label>
-                    <input type="text" />
+                    <input type="text" required/>
                     <label htmlFor="email">
                         E-mail
                     </label>
-                    <input type="email" />
-                    <textarea rows={4} cols={48} />
+                    <input type="email" required/>
+                    <textarea rows={4} cols={48} required/>
                     <input type="submit" value="Send" />
+                    < BsSend className='sendL'/>
                 </form>
               </div>
             </div>

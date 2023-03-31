@@ -38,8 +38,8 @@ const Home = () => {
                 style={{ height: "180px", width: "100%" }}
               />
               <p className="p-3">
-                This is project list individual repositories in the github, it
-                also gives details about the repos.
+              This project lists individual repositories in the github, it
+                  also gives details about the repos.
               </p>
               <a href="https://githubapi-with-vue.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
             </div>

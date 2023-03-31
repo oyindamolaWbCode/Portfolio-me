@@ -42,7 +42,7 @@ const Projects = () => {
                   style={{ height: "180px", width: "100%" }}
                 />
                 <p className="p-3">
-                  This is project list individual repositories in the github, it
+                  This project lists individual repositories in the github, it
                   also gives details about the repos.
                 </p>
                <a href="https://githubapi-with-vue.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
@@ -73,7 +73,7 @@ const Projects = () => {
                 />
                 <p className="p-3">
                   This project output the service provider logo whenever a
-                  nigeria is inputted into the input type box
+                  nigeria number is inputted into the input type box
                 </p>
                  <a href="https://phonie-dun.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>
@@ -87,8 +87,7 @@ const Projects = () => {
                   style={{ height: "180px", width: "100%" }}
                 />
                 <p className="p-3">
-                  This project output the service provider logo whenever a
-                  nigeria is inputted into the input type box
+                  This project output hides some specific words chosen to be redacted replaced with symbol
                 </p>
                  <a href="https://redactr-app.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
                 </div>

@@ -15,10 +15,10 @@ const Navbar = () =>{
         <div className="Navbar-content">
             <header>
 			<nav ref={navRef}>
-				<a href="/">Home</a>
-				<a href="/About">About</a>
-				<a href="/Projects">Projects</a>
-				<a href="/Footer">Contact</a>
+				<a href="/" target="_parent">Home</a>
+				<a href="/About" target="_parent">About</a>
+				<a href="/Projects" target="_parent">Projects</a>
+				<a href="/Footer" target="_parent">Contact</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

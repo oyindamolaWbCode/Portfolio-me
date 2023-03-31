@@ -90,7 +90,7 @@ header div
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
+		background: #222222;
 		transition: 1s;
 	}
 
@@ -451,6 +451,9 @@ label{
     padding-bottom: 20px;
    }
 
+   .animation{
+    width: 100%;
+   }
 }
 
 @media (min-width: 767px) and (max-width: 769px) {
@@ -473,33 +476,10 @@ label{
     padding-bottom: 20px;
   }
 
-  .skillsContainer {
+  /* .skillsContainer {
     padding: 20px 29px;
     align-items: center;
-  }
-
-  .pro:before{
-  content:" ";
-  display: block;
-  height: 2px;
-  width: 80px;
-  position: absolute;
-  top: 70%;
-  left: 200px;
-  background:  #dedde1;
-}
-
-.pro::after{
-  font-family: "poppins";
-  content:" ";
-  height: 2px;
-  width: 80px;
-  background: #dedde1;
-  display: block;
-  position: absolute;
-  top: 70%;
-    right: 200px;
-}
+  } */
 
 }
 

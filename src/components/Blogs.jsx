@@ -1,8 +1,14 @@
 import props from "../Assets/img/props.jpg";
 import calculator from "../Assets/img/calculator.png";
 import Bug from "../Assets/img/bug.png"
+import AOS from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const Blogs = () =>{
+  useEffect(() =>{
+    AOS.init({duration: 2000})
+}, [])
     return(
         <div className="blogs-container">
             <div className="blog-header">
@@ -19,7 +25,9 @@ const Blogs = () =>{
         </h3>
             </div>
             <div className="project-container">
+                  <div className='animation' data-aos="flip-right">
         <div className="row mb-2">
+    
         <div className="single-project col-md-4">
               <div className="single-content">
                 <h3> Props </h3>
@@ -45,7 +53,7 @@ const Blogs = () =>{
                 <button className="smallBu">Calculator</button>
                <a href="https://medium.com/@kushimo.oyindamola/building-calculator-with-react-2d7a492ce3ee" target="_blank" rel="noopener noreferrer" className="read">Read</a>
               </div>
-            </div> 
+            </div>
             <div className="single-project col-md-4">
               <div className="single-content">
                 <h3> Vercel SyntaxError </h3>
@@ -61,7 +69,7 @@ const Blogs = () =>{
             </div> 
             </div>
             </div>
-
+        </div>
         </div>
     );
 }

@@ -33,7 +33,7 @@ const About = () =>{
                         <Cursor cursorStyle= ' _{ ' />
                     </span>
                    </h3>
-                    <p className='fs-4'>Hello! It's nice having you here, I am a passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and Passionate about Problem Solving.</p>
+                    <p className='fs-4'>Hello! It's nice having you here, I'm Oyindamola Kushimo a computer science student, using the latest tools and technologies used in frontend development to bring ideas to an accessible, human-centered products. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and passionate about problem solving.</p>
                     <div className='ResumeNcontact d-flex '>
                         <div className='resume m-r-10'>
                             <a href="https://drive.google.com/file/d/1UjlJbYJa0jUOdT7xXw3Y_FMGx6AhYqDl/view?usp=share_link" target="_blank" rel="noopener noreferrer"><button style={{backgroundColor: "transparent", color: "#b38383"}} className="OutL" >Download CV <HiInboxIn className='icon fs-5'/></button></a>

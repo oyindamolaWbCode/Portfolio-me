@@ -36,7 +36,7 @@ const About = () =>{
                     <p className='fs-4'>Hello! It's nice having you here, I'm Oyindamola Kushimo a computer science student, using the latest tools and technologies used in frontend development to bring ideas to an accessible, human-centered products. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and passionate about problem solving.</p>
                     <div className='ResumeNcontact d-flex '>
                         <div className='resume m-r-10'>
-                            <a href="https://drive.google.com/file/d/1UjlJbYJa0jUOdT7xXw3Y_FMGx6AhYqDl/view?usp=share_link" target="_blank" rel="noopener noreferrer"><button style={{backgroundColor: "transparent", color: "#b38383"}} className="OutL" >Download CV <HiInboxIn className='icon fs-5'/></button></a>
+                            <a href="https://drive.google.com/file/d/1OvL-VcI_6g911hlpxlDaNb1npiuzSn4i/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><button style={{backgroundColor: "transparent", color: "#b38383"}} className="OutL" >Download CV <HiInboxIn className='icon fs-5'/></button></a>
                         </div>
                         <div className='contact'>
                             <a href="/footer"><button  style={{backgroundColor: "#b38383", color: "#282828", borderRadius: "10px", padding: "13px 40px" }}>Contact Me</button></a>

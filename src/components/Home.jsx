@@ -1,5 +1,5 @@
 import repo from '../Assets/img/repo.png'
-import todo from "../Assets/img/todo.png";
+import short from "../Assets/img/short.png";
 import phonie from "../Assets/img/phonie.png";
 import About from "./About";
 import Language from "./Language";
@@ -46,17 +46,15 @@ const Home = () => {
           </div>
           <div className="single-project col-md-4">
             <div className="single-content">
-              <h3>Todo App</h3>
+              <h3>Short it</h3>
               <img
-                src={todo}
+                src={short}
                 alt=""
                 style={{ height: "180px", width: "100%" }}
               />
-              <p className="p-3">
-                The app adds, deletes, modify todos to give a stress- free life
-                making daily life organized
-              </p>
-              <a href="https://todo-list-iota-mocha.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
+               <p className="p-3">
+                  The app shorten a longer URL into a very short form to enable easy access and transfers.,It also generate QRCode for Links </p>
+                <a href="https://short-it-client.vercel.app/" target="_blank" rel="noopener noreferrer"><button> View Demo</button></a>
             </div>
           </div>
           <div className="single-project col-md-4">
